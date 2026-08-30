@@ -1,5 +1,3 @@
-import mercadoLivreIconUrl from "../../../svg/mercado-libre.svg?url";
-
 /** Ícones de plataformas externas usados pela Connect. */
 
 /**
@@ -9,7 +7,7 @@ import mercadoLivreIconUrl from "../../../svg/mercado-libre.svg?url";
 export function MercadoLivreIcon({ className }: { className?: string }) {
   return (
     <img
-      src={mercadoLivreIconUrl}
+      src="/mercado-livre.svg"
       role="img"
       aria-label="Mercado Livre"
       alt="Mercado Livre"
