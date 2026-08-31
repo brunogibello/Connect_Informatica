@@ -1,3 +1,5 @@
+import mercadoLivreIconUrl from "../../../svg/mercado-libre.svg?url";
+
 /** Ícones de plataformas externas usados pela Connect. */
 
 /**
@@ -6,16 +8,13 @@
  */
 export function MercadoLivreIcon({ className }: { className?: string }) {
   return (
-    <svg
-      viewBox="0 0 150 104"
+    <img
+      src={mercadoLivreIconUrl}
       role="img"
       aria-label="Mercado Livre"
+      alt="Mercado Livre"
       className={`${className ?? ""} object-contain`}
-    >
-      <path fill="#2D3277" d="M150 52c0 29-29 52-75 52S0 81 0 52C0 25 34 0 75 0s75 25 75 52Z" />
-      <ellipse cx="75" cy="50" rx="72" ry="47" fill="#FFE600" />
-      <path fill="#fff" d="M38 42c-4-2-9-4-15-6 5-13 16-23 30-29 10 5 19 7 28 5 8-2 14-7 21-9 13 5 24 14 30 26-16 4-27 9-31 11-8-7-20-18-26-22-5-3-9-4-14-2-5 1-11 6-17 11l-7 8c-1 1-1 3 1 4 4 3 11 3 16 1 4-2 8-5 12-8 3-2 7-5 10-6 2-1 4-1 6 0 5 3 26 22 29 25l-7 12c-3 5-7 8-12 8-4 0-8-2-11-5l-8-8c-1-1-2-1-3 0-1 1-1 2 0 3l8 9c-2 4-5 7-10 7-4 0-8-2-11-5l-7-8c-1-1-2-1-3 0-1 1-1 2 0 3l7 8c-2 3-5 5-9 5-4 0-8-2-11-5l-6-7c-1-1-2-1-3 0-1 1-1 2 0 3l5 7c-4 1-8 0-11-2-3-2-4-5-3-8 1-4 4-7 8-9 3-2 7-3 11-3Z" />
-    </svg>
+    />
   );
 }
 
